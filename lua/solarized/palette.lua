@@ -8,7 +8,7 @@ function M.get_colors()
   local colors = {
     solarized = {
       dark = {
-        base03 = '#002b36', -- background tone dark (main)
+        base03 = '#003c3d', -- background tone dark (main)
         base02 = '#073642', -- background tone (highlight/menu/LineNr)
         base01 = '#586e75', -- content tone (comment)
         base00 = '#657b83', -- content tone (winseparator)
@@ -17,23 +17,23 @@ function M.get_colors()
         base2 = '#eee8d5', -- background tone light (highlight)
         base3 = '#fdf6e3', -- background tone lighter (main)
         -- accent
-        yellow = '#b58900',
-        orange = '#cb4b16',
-        red = '#dc322f',
-        magenta = '#d33682',
-        violet = '#6c71c4',
+        yellow = '#e6db74',
+        orange = '#f78104',
+        red = '#ff4500',
+        magenta = '#a277ff',
+        violet = '#f92772',
         blue = '#268bd2',
         cyan = '#2aa198',
-        green = '#859900',
+        green = '#8ec07c',
         -- git
-        add = '#859900',
-        change = '#b58900',
-        delete = '#dc322f',
+        add = '#8ec07c',
+        change = '#e7db74',
+        delete = '#ff4500',
         -- diagnostic
         info = '#268bd2',
-        hint = '#859900',
-        warning = '#b58900',
-        error = '#dc322f',
+        hint = '#8ec07c',
+        warning = '#e7db74',
+        error = '#ff4500',
       },
       light = {
         base3 = '#002b36', -- background tone darker (main)
